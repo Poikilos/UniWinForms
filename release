@@ -1,0 +1,36 @@
+#!/bin/sh
+#sVer=$(date +%Y%m%d-%k.%M)
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+sVer=$(date +%Y%m%d)
+sFolder="UniWinForms"
+echo "Publishing revision $sVer"
+cd ~/GitHub
+rm -Rvf $sFolder-$sVer
+#mkdir $sFolder-$sVer
+cp -R --no-dereference $sFolder $sFolder-$sVer
+#rm $sFolder-$sVer/release
+
+#rm $sFolder-$sVer/*~
+#rm $sFolder-$sVer/bin/*~
+cd $sFolder-$sVer
+#find . -regex .*~ | xargs rm
+rm -R *~
+rm -R *~
+#rm -Rf bin/test
+cd ..
+
+#rm $sFolder-$sVer/bin/lib-$sFolder
+tar -czf $sFolder-$sVer.tar.gz $sFolder-$sVer
+rm -Rvf $sFolder-$sVer
+mkdir ~/ownCloud/www/expertmultimedia/releases/$sFolder
+mv -f $sFolder-$sVer.tar.gz ~/ownCloud/www/expertmultimedia/releases/$sFolder/
+echo
+echo "Finished."

@@ -1,0 +1,2 @@
+#!/bin/sh
+mcs MainForm.cs AssemblyInfo.cs SplashScreen.cs /r:System.Windows.Forms /r:System.Drawing

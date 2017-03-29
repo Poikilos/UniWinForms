@@ -1,0 +1,20 @@
+#!/bin/sh
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+clear
+./clean
+#/target:winexe /win32icon:icon.ico 
+rm err.txt
+mcs /out:./bin/UniWinForms.exe AssemblyInfo.cs Chunker.cs MainForm.cs SplashScreen.cs UniWinForm.cs UniWinForms.cs UniWinFormsSolution.cs /r:System.Drawing /r:System.Windows.Forms 2> err.txt
+FileSize=`ls -l err.txt | awk '{print $5}'`
+if [ $FileSize -gt 0 ]
+then
+outputinspector&
+fi
+mv UniWinForms.exe ../bin
+echo $(date +%Y-%m-%d) > ../bin/1.Version.txt

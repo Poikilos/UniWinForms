@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=
+Comment[en_US]=
+Encoding=UTF-8
+Exec=env WINEPREFIX="/home/Owner/.wine" wine "Z:\\home\\Owner\\Projects\\UniWinForms\\UniWinForms.exe"
+GenericName=UniWinForms
+GenericName[en_US]=UniWinForms
+Icon=/home/Owner/Projects/UniWinForms/etc/icon.png
+MimeType=
+Name=
+Name[en_US]=
+Path=$HOME/.wine/dosdevices/z:/home/Owner/Projects/UniWinForms
+StartupNotify=true
+Terminal=true
+TerminalOptions=\s--noclose
+Type=Application
+X-DCOP-ServiceType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

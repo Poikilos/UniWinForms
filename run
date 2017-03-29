@@ -1,0 +1,6 @@
+echo
+echo "This is only a test of UniWinForms..."
+echo
+cd bin
+mono UniWinForms.exe
+cd ..
