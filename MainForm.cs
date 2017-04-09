@@ -15,7 +15,7 @@ using System.IO;
 using System.Drawing.Imaging;
 using System.Threading;
 
-namespace OrangejuiceElectronica {
+namespace ExpertMultimedia {
 	/// <summary>
 	/// Description of MainForm.
 	/// </summary>

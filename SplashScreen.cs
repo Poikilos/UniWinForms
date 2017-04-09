@@ -6,7 +6,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Threading;
 
-namespace OrangejuiceElectronica {
+namespace ExpertMultimedia {
 	/// <summary>
 	/// Summary description for SplashScreen.
 	/// </summary>

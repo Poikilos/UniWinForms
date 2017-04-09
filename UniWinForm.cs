@@ -4,7 +4,7 @@
 
 using System;
 
-namespace OrangejuiceElectronica {
+namespace ExpertMultimedia {
 	public delegate bool StringDelegate(string sMsg);
 	public class UniWinForm {
 		public string sData="";//parent in uniwinforms.formarr

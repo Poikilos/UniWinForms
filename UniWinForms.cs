@@ -5,10 +5,10 @@
 using System;
 using System.IO;
 using System.Collections;
-using OrangejuiceElectronica;//TODO: why is this needed by mcs?
+using ExpertMultimedia;//TODO: why is this needed by mcs?
 using System.Windows.Forms;//for messagebox only
 
-namespace OrangejuiceElectronica {
+namespace ExpertMultimedia {
 	public class FormType {
 		public const int unknown=0;
 		public const int comment=1;

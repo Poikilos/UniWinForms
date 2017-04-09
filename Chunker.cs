@@ -4,7 +4,7 @@
 using System;
 using System.IO;
 using System.Collections;//ArrayList etc
-namespace OrangejuiceElectronica {
+namespace ExpertMultimedia {
 	class Chunker { //TODO: change to RStream and move to RetroEngine
 		#region variables
 		public static bool bDebug=false;

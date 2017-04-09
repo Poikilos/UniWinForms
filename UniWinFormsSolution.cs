@@ -5,7 +5,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace OrangejuiceElectronica {
+namespace ExpertMultimedia {
 	public class UniWinFormsSolution {
 		UniWinForms[] uwfsarrProject=null;
 		string sFile;
